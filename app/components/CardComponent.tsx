@@ -30,7 +30,7 @@ const F1Card = () => {
         </p>
         <p className="text-sm">
           I am a massive fan of Formula 1, where drivers push themselves to the limit on
-          the world’s fastest circuits. My favourite team is McLaren (if you couldn't already tell!)
+          the world&apos;s fastest circuits. My favourite team is McLaren (if you couldn&apos;t already tell!)
         </p>
       </div>
     </motion.div>

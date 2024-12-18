@@ -1,9 +1,7 @@
 'use client'
 import { motion } from 'framer-motion';
-import { useState } from 'react';
 
 const AboutMe = () => {
-  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <section className="flex flex-col items-center justify-center relative">
@@ -15,11 +13,11 @@ const AboutMe = () => {
           className="text-4xl md:text-6xl font-extrabold mb-6"
           whileHover={{ scale: 1.1 }}
         >
-          Hello, I'm <span className="text-[#47c7fc]">Aryan Jain</span>
+          Hello, I&apos;m <span className="text-[#47c7fc]">Aryan Jain</span>
         </motion.h1>
         
         <p className="text-lg md:text-2xl">
-          I'm a software engineer with a love for building useful and powerful applications powered by data science and AI.
+          I&apos;m a software engineer with a love for building useful and powerful applications powered by data science and AI.
         </p>
       </div>
 
@@ -63,7 +61,7 @@ const AboutMe = () => {
             className="p-6 bg-white text-black rounded-lg shadow-lg"
           >
             <h3 className="font-semibold text-xl">2023 - Full time Analyst @ Deutsche Bank</h3>
-            <p>Currently working as a software engineer at DB, building AI/ML powered applications for the bank's Risk, Finance & Treasury department.</p>
+            <p>Currently working as a software engineer at DB, building AI/ML powered applications for the bank&apos;s Risk, Finance & Treasury department.</p>
           </motion.div>
         </div>
       </div>

@@ -29,7 +29,7 @@ const BadmintonCard = () => {
           Exciting, fast-paced and competitive sports.
         </p>
         <p className="text-sm">
-        "I love playing badminton because it challenges my agility, reflexes, and strategy. It of course also helps me stay active and have fun."
+        I love playing badminton because it challenges my agility, reflexes, and strategy. It of course also helps me stay active and have fun.
         </p>
       </div>
     </motion.div>
