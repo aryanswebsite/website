@@ -15,7 +15,7 @@ function F1Car() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 4 }}
         >
-            <div className='absolute left-1/2 z-30 top-1/3 transform -translate-y-56 translate-x-28 w-2/5 h-80'>
+            <div className='absolute left-1/2 z-30 top-1/3 -translate-y-48 translate-x-28 w-2/5 h-80'>
                 <Canvas camera={{ position: [3, 1, 3], fov: 40 }}>
                     <Suspense>
                         <Environment preset="sunset" />
@@ -34,10 +34,8 @@ function F1Car() {
                         />
                     </Suspense>
                 </Canvas>
-                <Link href="/hobbies">
-                    <p className="text-2xl text-mclaren-orange text-shadow-outline font-semibold -translate-y-16 translate-x-72 w-max hover:drop-shadow-md-strong">
-                        Hobbies
-                    </p>
+                <Link href="/hobbies" className="relative text-2xl font-semibold text-mclaren-orange text-shadow-outline -top-16 left-72 hover:drop-shadow-md-strong">
+                    Hobbies
                 </Link>
             </div>
         </motion.div>
