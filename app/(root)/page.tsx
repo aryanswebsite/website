@@ -1,8 +1,9 @@
-// import F1Car from "../components/f1car"
+import ProjectIcon from "../components/ProjectIcon";
 import { TextGenerateEffect } from "../components/ui/TextGenerateEffect";
 import dynamic from 'next/dynamic'
+import IntroPara from "../components/IntroPara";
 
-const F1Car = dynamic(() => import('../components/f1car'), {ssr: false})
+const F1Car = dynamic(() => import('../components/f1car'), { ssr: false })
 
 export default function Home() {
   return (
@@ -12,11 +13,10 @@ export default function Home() {
           className="text-center"
           words="🏁 Welcome to the Aryan Jain Grand Prix 🏁"
         />
-        <p className="mt-4 text-lg text-gray-700">
-          Hi, I’m Aryan! Explore my projects and passions.
-        </p>
       </div>
+      <IntroPara />
       <F1Car />
+      <ProjectIcon />
     </main>
   );
 }
