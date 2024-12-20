@@ -1,6 +1,6 @@
 'use client'
 async function getTickets() {
-  await new Promise(resolve => setTimeout(resolve, 1000))
+  await new Promise(resolve => setTimeout(resolve, 500))
 }
 
 export default async function Home() {
