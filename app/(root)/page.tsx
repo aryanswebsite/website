@@ -2,6 +2,7 @@ import ProjectIcon from "../components/ProjectIcon";
 import { TextGenerateEffect } from "../components/ui/TextGenerateEffect";
 import dynamic from 'next/dynamic'
 import IntroPara from "../components/IntroPara";
+import DynamicFace from "../components/DynamicFace";
 
 const F1Car = dynamic(() => import('../components/f1car'), { ssr: false })
 
@@ -17,6 +18,7 @@ export default function Home() {
       <IntroPara />
       <F1Car />
       <ProjectIcon />
+      <DynamicFace />
     </main>
   );
 }

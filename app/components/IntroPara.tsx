@@ -8,7 +8,7 @@ const IntroPara = () => {
             initial={{ opacity: 0 }} // Start as hidden
             animate={{ opacity: 1 }} // Become visible
             transition={{ duration: 0.5, delay: 2.5 }} // transition
-            className="relative top-20 text-lg text-gray-700">
+            className="absolute top-[28.5rem] text-lg text-gray-700">
             Hi, I’m Aryan! Explore my projects and passions.
         </motion.p>
     )

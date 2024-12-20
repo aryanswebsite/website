@@ -6,11 +6,11 @@ const ProjectIcon = () => {
   const parentRef = useRef(null);
 
   return (
-    <div className='fixed w-full h-full z-10' ref={parentRef}>
+    <div className='relative w-full h-full z-10' ref={parentRef}>
       <motion.div
         drag
         dragConstraints={parentRef}
-        className='absolute left-20 top-40 z-10'
+        className='absolute left-16 bottom-20 z-10'
         style={{
           perspective: "50px",
           display: "flex",

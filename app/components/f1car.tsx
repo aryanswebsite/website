@@ -13,7 +13,7 @@ function F1Car() {
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 4 }}
+            transition={{ duration: 1, delay: 3.5 }}
         >
             <div className='absolute left-1/2 z-30 top-1/3 -translate-y-48 translate-x-28 w-2/5 h-80'>
                 <Canvas camera={{ position: [3, 1, 3], fov: 40 }}>
